@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
   res.json(data)
 })
 
-app.listen(4001, () => {
+app.listen(80, () => {
   console.log('express server with CORS listening...')
 })
